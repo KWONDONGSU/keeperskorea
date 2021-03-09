@@ -1104,7 +1104,7 @@ body {
 .thirteen_img img {
   width: 11.5rem;
   position: absolute;
-  top: 238.5rem;
+  top: 240.5rem;
   left: 42.9rem;
   z-index: 99;
   cursor: pointer;
@@ -1452,8 +1452,8 @@ body {
 .tweteenone_img img {
   width: 10.5rem;
   position: absolute;
-  top: -9rem;
-  left: -20.1rem;
+  top: -10rem;
+  left: -23.1rem;
 }
 .tweeteentwo_img img {
   width: 8.5rem;
