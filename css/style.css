@@ -620,10 +620,10 @@ body {
   font-weight: 600;
 }
 .seven_img img {
-  width: 6rem;
+  width: 10rem;
   position: absolute;
-  top: 123.3rem;
-  left: 50.7rem;
+  top: 125.3rem;
+  left: 56.7rem;
   z-index: 99;
   cursor: pointer;
 }
@@ -1337,10 +1337,10 @@ body {
   font-weight: 600;
 }
 .nineteen_img img {
-  width: 9.5rem;
+  width: 12.5rem;
   position: absolute;
-  top: 399.8rem;
-  left: 48.9rem;
+  top: 398.8rem;
+  left: 50.9rem;
 }
 .twelvefour_mini_circle {
   width: 1.6rem;
@@ -1374,9 +1374,9 @@ body {
   font-weight: 600;
 }
 .tweteen_img img {
-  width: 8.5rem;
+  width: 11.5rem;
   position: absolute;
-  top: 427.5rem;
+  top: 425.9rem;
   left: 62.9rem;
 }
 .twelvefive_mini_circle {
@@ -1453,7 +1453,7 @@ body {
   width: 10.5rem;
   position: absolute;
   top: -10rem;
-  left: -23.1rem;
+  left: -22rem;
 }
 .tweeteentwo_img img {
   width: 8.5rem;
