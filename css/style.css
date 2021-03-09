@@ -1,0 +1,1891 @@
+.inner {
+  max-width: 1280px;
+  /* min-width: 1024px; */
+  margin: 0 auto;
+}
+/* 페이지별 영역 */
+body {
+  overflow-x: hidden;
+  background-color: #8bcb47;
+}
+#wrap {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+}
+/*********************header****************************/
+.nav_btn {
+  display: none;
+}
+#header .inner {
+  position: relative;
+}
+
+#header .header_top {
+  width: calc(100% - 250px);
+  float: right;
+  text-align: right;
+}
+#header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#header #nav {
+  position: relative;
+  float: right;
+  margin-top: 46px;
+  left: 9rem;
+}
+.t_mn {
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+}
+.t_mn > li {
+  letter-spacing: -3px;
+}
+#header #nav .depth1 > li {
+  float: left;
+  margin-left: 1.25rem;
+  padding-left: 3.12rem;
+  padding-bottom: 3.12rem;
+  color: #000000;
+}
+#header #nav .depth1 > li > a {
+  display: block;
+  line-height: 40px;
+  font-size: 1.31rem;
+  font-weight: 100;
+  color: #ffffff;
+  font-family: "Noto Sans KR", cursive;
+}
+#header #nav .depth1 > li:hover ul {
+  display: block;
+}
+#header #nav .depth1 ul {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  display: none;
+  z-index: 99999;
+}
+#header #nav .depth1 ul li {
+  background: url(../) no-repeat;
+  display: inline-block;
+  padding: 0 30px;
+}
+#header #nav .depth1 ul li:last-child {
+  background: none;
+}
+/*********************header 끝****************************/
+/* main시작 */
+/* 파란배경시작 */
+.blue {
+  width: 100%;
+  height: 150rem;
+  background-color: #8bcb47;
+}
+.mascort {
+  position: absolute;
+  top: 147rem;
+  left: 24rem;
+  z-index: 9999999;
+}
+.first_circle {
+  width: 6.81rem;
+  height: 6.81rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 17rem;
+  left: 84rem;
+}
+.second_circle {
+  width: 5.93rem;
+  height: 5.93rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 47rem;
+  left: 42.2rem;
+}
+.third_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 74.7rem;
+  left: 84.6rem;
+}
+.six_circle {
+  width: 6.81rem;
+  height: 6.81rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 144rem;
+  left: 67rem;
+}
+.first_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 36.9rem;
+  left: 58.7rem;
+  z-index: 9;
+}
+.second_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 35.4rem;
+  left: 86.7rem;
+  z-index: 9;
+}
+.third_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 56.2rem;
+  left: 69rem;
+  z-index: 9;
+}
+.four_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 77.4rem;
+  left: 60.7rem;
+  z-index: 9;
+}
+.five_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 77.4rem;
+  left: 43.7rem;
+  z-index: 9;
+}
+.six_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 100.5rem;
+  left: 40.7rem;
+  z-index: 9;
+}
+.seven_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 92.2rem;
+  left: 73.7rem;
+  z-index: 9;
+}
+.eight_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 101.9rem;
+  left: 87.3rem;
+  z-index: 9;
+}
+.nine_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 119.7rem;
+  left: 59.3rem;
+  z-index: 9;
+}
+.ten_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 127.7rem;
+  left: 39.5rem;
+  z-index: 9;
+}
+.eleven_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 140.6rem;
+  left: 52.5rem;
+  z-index: 9;
+}
+.twelve_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #3da4d9;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 155.3rem;
+  left: 45.5rem;
+  z-index: 9;
+}
+.se_1 {
+  position: absolute;
+  left: 1.42rem;
+  top: 1.9rem;
+  z-index: 9;
+  font-size: 1.9rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 900;
+  color: #8bcb47;
+}
+.se_2 {
+  position: absolute;
+  left: 0.7rem;
+  top: 1.5rem;
+  z-index: 9;
+  font-size: 2rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #8bcb47;
+  font-weight: 900;
+}
+.se_3 {
+  position: absolute;
+  left: 0.8rem;
+  top: 1.3rem;
+  z-index: 9;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #8bcb47;
+  font-weight: 900;
+}
+.sec_3 {
+  position: absolute;
+  top: 71.2rem;
+  left: 72rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.3rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.se_4 {
+  position: absolute;
+  left: 1rem;
+  top: 1.5rem;
+  z-index: 9;
+  font-size: 2.2rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #8bcb47;
+  font-weight: 900;
+}
+.se_5 {
+  position: absolute;
+  left: 1.2rem;
+  top: 1.9rem;
+  z-index: 9;
+  font-size: 2rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #3da4d9;
+  font-weight: 900;
+}
+.se_6 {
+  position: absolute;
+  left: 0.9rem;
+  top: 1.5rem;
+  z-index: 9;
+  font-size: 1.9rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #3da4d9;
+  font-weight: 900;
+}
+.se_7 {
+  position: absolute;
+  left: 0.5rem;
+  top: 1rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #3da4d9;
+  font-weight: 900;
+}
+.se_8 {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.4rem;
+  z-index: 9;
+  font-size: 2.1rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #3da4d9;
+  font-weight: 900;
+}
+.text_1 {
+  position: absolute;
+  top: 24rem;
+  left: 77.1rem;
+  text-align: right;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.first_img {
+  cursor: pointer;
+}
+.first_img img {
+  width: 6.5rem;
+  position: absolute;
+  top: 26.5rem;
+  left: 77rem;
+  z-index: 99;
+}
+.txt_2 {
+  position: absolute;
+  top: 31.7rem;
+  left: 48.9rem;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  text-align: right;
+  color: #ffffff;
+}
+.text_2 {
+  position: absolute;
+  top: 33.6rem;
+  left: 48.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_3 {
+  position: absolute;
+  top: 47rem;
+  left: 48.3rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  color: #ffffff;
+}
+.second_img img {
+  width: 7.2rem;
+  position: absolute;
+  top: 40rem;
+  left: 48.2rem;
+  cursor: pointer;
+  z-index: 99;
+}
+.sec_2 {
+  position: absolute;
+  top: 46rem;
+  left: 48.2rem;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  color: #ffffff;
+}
+.txt_4 {
+  position: absolute;
+  top: 53.5rem;
+  left: 71.4rem;
+  font-size: 1.4rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  color: #ffffff;
+}
+.text_4 {
+  position: absolute;
+  top: 55.5rem;
+  left: 71.5rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 99;
+}
+.text_5 {
+  position: absolute;
+  top: 73.1rem;
+  left: 76rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.three_img img {
+  width: 14rem;
+  position: absolute;
+  top: 59.4rem;
+  left: 73.5rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_6 {
+  position: absolute;
+  top: 74rem;
+  left: 54.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.four_img img {
+  width: 11.5rem;
+  position: absolute;
+  top: 62rem;
+  left: 53.7rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_6 {
+  position: absolute;
+  top: 72rem;
+  left: 52rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_7 {
+  position: absolute;
+  top: 71.9rem;
+  left: 36.8rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.4rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_7 {
+  position: absolute;
+  top: 75.9rem;
+  left: 38.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_8 {
+  position: absolute;
+  top: 99rem;
+  left: 43.3rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.five_img img {
+  width: 18.5rem;
+  position: absolute;
+  top: 80.5rem;
+  left: 42.7rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_8 {
+  position: absolute;
+  top: 97rem;
+  left: 43.4rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.4rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_9 {
+  position: absolute;
+  top: 89rem;
+  left: 72.9rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_9 {
+  position: absolute;
+  top: 84.4rem;
+  left: 72.9rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_10 {
+  position: absolute;
+  top: 103.6rem;
+  left: 76.9rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.six_img img {
+  width: 15rem;
+  position: absolute;
+  top: 103.5rem;
+  left: 44.7rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_10 {
+  position: absolute;
+  top: 99rem;
+  left: 71.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_11 {
+  position: absolute;
+  top: 116.1rem;
+  left: 44.6rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_11 {
+  position: absolute;
+  top: 118.5rem;
+  left: 49.7rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_12 {
+  position: absolute;
+  top: 126rem;
+  left: 42.4rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.seven_img img {
+  width: 6rem;
+  position: absolute;
+  top: 123.3rem;
+  left: 50.7rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_12 {
+  position: absolute;
+  top: 130.5rem;
+  left: 42.5rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_13 {
+  position: absolute;
+  top: 135.4rem;
+  left: 45rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_13 {
+  position: absolute;
+  top: 137.4rem;
+  left: 47.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_14 {
+  position: absolute;
+  top: 149.2rem;
+  left: 44.1rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.eight_img img {
+  width: 8.5rem;
+  position: absolute;
+  top: 143.5rem;
+  left: 51.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_14 {
+  position: absolute;
+  top: 153.8rem;
+  left: 44.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.sec_4 {
+  position: absolute;
+  top: 142.2rem;
+  left: 74.1rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_15 {
+  position: absolute;
+  top: 146.4rem;
+  left: 74.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.nine_img img {
+  width: 10rem;
+  position: absolute;
+  top: 135.5rem;
+  left: 78.2rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.sec_1 {
+  position: absolute;
+  top: 22rem;
+  left: 73rem;
+  text-align: right;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+/* 파란배경 끝 */
+/* 연그린배경시작 */
+.se_9 {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.2rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #ed9a16;
+  font-weight: 900;
+}
+.sec_9 {
+  position: absolute;
+  top: 347.6rem;
+  left: 39.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+
+.rightgreen {
+  width: 100%;
+  height: 160rem;
+  background-color: #3da4d9;
+}
+.seven_circle {
+  width: 6.81rem;
+  height: 6.81rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 173.4rem;
+  left: 61rem;
+}
+.eight_circle {
+  width: 5.93rem;
+  height: 5.93rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 206.4rem;
+  left: 63rem;
+}
+.nine_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 228.7rem;
+  left: 82.4rem;
+}
+.ten_circle {
+  width: 5.93rem;
+  height: 5.93rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 263.7rem;
+  left: 66.5rem;
+}
+.thirteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 161.9rem;
+  left: 82.5rem;
+  z-index: 9;
+}
+.fourteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 164.9rem;
+  left: 42.5rem;
+  z-index: 9;
+}
+.fiveteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 180.4rem;
+  left: 81rem;
+  z-index: 9;
+}
+.sixteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 204.5rem;
+  left: 51.6rem;
+  z-index: 9;
+}
+.seventeen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 231.6rem;
+  left: 48.6rem;
+  z-index: 9;
+}
+.eighteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 255.9rem;
+  left: 50.6rem;
+  z-index: 9;
+}
+.nineteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 247.3rem;
+  left: 82.9rem;
+  z-index: 9;
+}
+.twenteen_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 293.3rem;
+  left: 37.4rem;
+  z-index: 9;
+}
+.twelveone_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #ed9a16;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 303.7rem;
+  left: 62.4rem;
+  z-index: 9;
+}
+.twelvetwo_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #a858b1;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 321.7rem;
+  left: 61.9rem;
+  z-index: 9;
+}
+.txt_16 {
+  position: absolute;
+  top: 155rem;
+  left: 76.6rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_16 {
+  position: absolute;
+  top: 159.2rem;
+  left: 80.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_17 {
+  position: absolute;
+  top: 164.7rem;
+  left: 45.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_17 {
+  position: absolute;
+  top: 166.7rem;
+  left: 45.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_18 {
+  position: absolute;
+  top: 171.7rem;
+  left: 61.8rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.85rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.sec_5 {
+  position: absolute;
+  bottom: 8.4rem;
+  right: -5.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_19 {
+  position: absolute;
+  top: 178.7rem;
+  left: 72.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.ten_img img {
+  width: 7rem;
+  position: absolute;
+  top: 180.8rem;
+  left: 64.7rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_19 {
+  position: absolute;
+  top: 183rem;
+  left: 72.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_20 {
+  position: absolute;
+  top: 196rem;
+  left: 50rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_20 {
+  position: absolute;
+  top: 200.5rem;
+  left: 50.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_21 {
+  position: absolute;
+  top: 207.9rem;
+  left: 69.2rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.eleven_img img {
+  width: 10.5rem;
+  position: absolute;
+  top: 199rem;
+  left: 77.6rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.sec_6 {
+  position: absolute;
+  top: 205.7rem;
+  left: 69rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_22 {
+  position: absolute;
+  top: 0.9rem;
+  left: -11.5rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweleve_img img {
+  width: 9.5rem;
+  position: absolute;
+  top: 219.1rem;
+  left: 74.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.sec_7 {
+  position: absolute;
+  top: 225.2rem;
+  left: 70.9rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_23 {
+  position: absolute;
+  top: 224.5rem;
+  left: 39.1rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_23 {
+  position: absolute;
+  top: 229rem;
+  left: 38rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_24 {
+  position: absolute;
+  top: 248.5rem;
+  left: 42.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteen_img img {
+  width: 11.5rem;
+  position: absolute;
+  top: 238.5rem;
+  left: 42.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_24 {
+  position: absolute;
+  top: 253rem;
+  left: 44.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_25 {
+  position: absolute;
+  top: 248.5rem;
+  left: 73.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_25 {
+  position: absolute;
+  top: 252.9rem;
+  left: 74.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.text_26 {
+  position: absolute;
+  top: 292.9rem;
+  left: 40rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.txt_26 {
+  position: absolute;
+  top: 290.7rem;
+  left: 39.9rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.fiveteen_img img {
+  width: 13.5rem;
+  position: absolute;
+  top: 279rem;
+  left: 39.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_27 {
+  position: absolute;
+  top: 300.1rem;
+  left: 56.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_27 {
+  position: absolute;
+  top: 302.3rem;
+  left: 56.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+  z-index: 99;
+  cursor: pointer;
+}
+.sec_8 {
+  position: absolute;
+  top: 268.3rem;
+  left: 72.5rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_28 {
+  position: absolute;
+  bottom: -6rem;
+  right: -8.5rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.fourteen_img img {
+  width: 12.5rem;
+  position: absolute;
+  top: 276.5rem;
+  left: 72.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+.txt_29 {
+  position: absolute;
+  bottom: 1.8rem;
+  right: -12.5rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_29 {
+  position: absolute;
+  bottom: -1.7rem;
+  right: -11rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.sixteen_img img {
+  width: 11rem;
+  position: absolute;
+  top: 307.9rem;
+  left: 66.9rem;
+  z-index: 99;
+  cursor: pointer;
+}
+/* 연그린배경 끝 */
+/* 하늘배경시작 */
+.sky {
+  width: 100%;
+  height: 160rem;
+  background-color: #ed9a16;
+}
+.text_30 {
+  position: absolute;
+  top: 350rem;
+  right: 61.7rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.seventeen_img img {
+  width: 11.5rem;
+  position: absolute;
+  top: 352.8rem;
+  left: 39.5rem;
+}
+.eleven_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 345.9rem;
+  left: 33.7rem;
+}
+.txt_31 {
+  position: absolute;
+  top: 366.5rem;
+  left: 68.4rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_31 {
+  position: absolute;
+  top: 370.9rem;
+  right: 38.6rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelvethree_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #a858b1;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 369.3rem;
+  left: 81.3rem;
+  z-index: 9;
+}
+.eighteen_img img {
+  width: 6.5rem;
+  position: absolute;
+  top: 373.8rem;
+  left: 73.9rem;
+}
+.txt_32 {
+  position: absolute;
+  top: 397rem;
+  left: 36.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_32 {
+  position: absolute;
+  top: 399.2rem;
+  right: 71rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.nineteen_img img {
+  width: 9.5rem;
+  position: absolute;
+  top: 399.8rem;
+  left: 48.9rem;
+}
+.twelvefour_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #a858b1;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 398.6rem;
+  left: 33.6rem;
+  z-index: 9;
+}
+.txt_33 {
+  position: absolute;
+  top: 420rem;
+  left: 54.4rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_33 {
+  position: absolute;
+  top: 424.5rem;
+  right: 55.4rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweteen_img img {
+  width: 8.5rem;
+  position: absolute;
+  top: 427.5rem;
+  left: 62.9rem;
+}
+.twelvefive_mini_circle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #a858b1;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 417.5rem;
+  left: 56.9rem;
+  z-index: 9;
+}
+.txt_34 {
+  position: absolute;
+  top: 453.5rem;
+  left: 59.8rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.text_34 {
+  position: absolute;
+  top: 470rem;
+  right: 49.9rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelve_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 456.4rem;
+  left: 77rem;
+}
+.twelve_circle_text {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.2rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #ed9a16;
+  font-weight: 900;
+}
+.twelve_circle_text_se {
+  position: absolute;
+  top: 451.5rem;
+  left: 68.4rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelve_circle_text_tr {
+  position: absolute;
+  top: 456.5rem;
+  right: 42.7rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweteenone_img img {
+  width: 10.5rem;
+  position: absolute;
+  top: -9rem;
+  left: -20.1rem;
+}
+.tweeteentwo_img img {
+  width: 8.5rem;
+  position: absolute;
+  top: 478rem;
+  left: 63.4rem;
+}
+.tweteenthree_img img {
+  width: 10.5rem;
+  position: absolute;
+  top: 508rem;
+  left: 42.4rem;
+}
+.tweeteenfour_img img {
+  width: 11.5rem;
+  position: absolute;
+  top: 536rem;
+  left: 48.4rem;
+}
+.tweeteenfive_img img {
+  width: 11.5rem;
+  position: absolute;
+  top: 556rem;
+  left: 40.9rem;
+}
+.tweteensix_img img {
+  width: 9.5rem;
+  position: absolute;
+  top: 579rem;
+  left: 70.9rem;
+}
+.twelevesix_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #a858b1;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 474rem;
+  left: 65.9rem;
+  z-index: 9;
+}
+.twelevesix_minicircle_text {
+  position: absolute;
+  top: 466.5rem;
+  left: 60.8rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelevesix_minicircle_text2 {
+  position: absolute;
+  top: 471rem;
+  right: 46.8rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+/* 하늘배경 끝 */
+/* 연한파랑배경시작 */
+.light_blue {
+  width: 100%;
+  height: 122rem;
+  background-color: #a858b1;
+}
+.tweleveseven_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 493.2rem;
+  left: 65.9rem;
+  z-index: 9;
+}
+.tweleveseven_minicircle_text {
+  position: absolute;
+  top: 485.4rem;
+  left: 58.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweleveseven_minicircle_text2 {
+  position: absolute;
+  top: 490.6rem;
+  right: 46.5rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweleveeight_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 509.2rem;
+  left: 31rem;
+  z-index: 9;
+}
+.tweleveeight_minicircle_text {
+  position: absolute;
+  top: 507.4rem;
+  left: 34rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.tweleveeight_minicircle_text2 {
+  position: absolute;
+  top: 512rem;
+  right: 77rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.7rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelevenine_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 540.2rem;
+  left: 31rem;
+  z-index: 9;
+}
+.twelevenine_minicircle_text {
+  position: absolute;
+  top: 537rem;
+  left: 34rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.twelevenine_minicircle_text2 {
+  position: absolute;
+  top: 541.9rem;
+  right: 73.9rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteenone_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 572.9rem;
+  left: 46rem;
+  z-index: 9;
+}
+.thirteenone_minicircle_text {
+  position: absolute;
+  top: 566rem;
+  left: 37.6rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteenone_minicircle_text2 {
+  position: absolute;
+  top: 570.4rem;
+  right: 64.3rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteentwo_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 587.7rem;
+  left: 64rem;
+  z-index: 9;
+}
+.thirteentwo_minicircle_text {
+  position: absolute;
+  top: 580.6rem;
+  left: 61rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteentwo_minicircle_text2 {
+  position: absolute;
+  top: 585rem;
+  right: 49.3rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteenthree_minicircle {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #8bcb47;
+  border: 5px solid #ffffff;
+  border-radius: 2rem;
+  position: absolute;
+  top: 594.7rem;
+  left: 75.9rem;
+  z-index: 9;
+}
+.thirteenthree_minicircle_text {
+  position: absolute;
+  top: 591.3rem;
+  left: 62.5rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.thirteenthree_minicircle_text2 {
+  position: absolute;
+  top: 595.9rem;
+  right: 44.2rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.sixteen_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 520.8rem;
+  left: 69.5rem;
+}
+.sixteen_circle_text {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.2rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #a858b1;
+  font-weight: 900;
+}
+.sixteen_circle_text_se {
+  position: absolute;
+  top: 514rem;
+  left: 63rem;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.sixteen_circle_text_tr {
+  position: absolute;
+  top: 518.8rem;
+  right: 42.7rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.seventeen_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 557.9rem;
+  left: 74.8rem;
+}
+.seventeen_circle_text {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.2rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #a858b1;
+  font-weight: 900;
+}
+.seventeen_circle_text_se {
+  position: absolute;
+  top: 558rem;
+  left: 63.3rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.seventeen_circle_text_tr {
+  position: absolute;
+  top: 562.9rem;
+  right: 44.9rem;
+  color: #ffffff;
+  text-align: right;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.eighteen_circle {
+  width: 4.87rem;
+  height: 4.87rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  position: absolute;
+  top: 583.9rem;
+  left: 27.1rem;
+}
+.eighteen_circle_text {
+  position: absolute;
+  left: 0.6rem;
+  top: 1.2rem;
+  z-index: 9;
+  font-size: 1.7rem;
+  font-family: "Noto Sans KR", cursive;
+  color: #a858b1;
+  font-weight: 900;
+}
+.eighteen_circle_text_se {
+  position: absolute;
+  top: 583.6rem;
+  left: 33rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+.eighteen_circle_text_tr {
+  position: absolute;
+  top: 587.9rem;
+  right: 74.9rem;
+  color: #ffffff;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Noto Sans KR", cursive;
+  font-weight: 600;
+}
+/* 하늘배경 끝 */
+.main_contents img {
+  position: absolute;
+  top: 12.5rem;
+  left: 29rem;
+  width: 60rem;
+}
+/* main끝 */
+
+/*********************footer****************************/
+
+.last {
+  width: 100%;
+  height: 191px;
+  background-color: #ffffff;
+  z-index: 9999;
+  position: absolute;
+  top: 601rem;
+}
+.footer_mn {
+  width: 100%;
+
+  margin-top: 20px;
+}
+.ft_text0 {
+  float: left;
+  margin-left: 38rem;
+}
+.ft_text0 img {
+  width: 5rem;
+}
+.ft_text1 {
+  width: 45%;
+  font-size: 1rem;
+  position: absolute;
+  left: 40.5rem;
+  top: 4rem;
+  color: rgb(77, 77, 77);
+}
+.ft_text2 {
+  float: left;
+  width: 26%;
+  font-size: 1rem;
+  color: rgb(77, 77, 77);
+  position: absolute;
+  left: 45rem;
+  top: 6.4rem;
+}
+.ft_text3 {
+  width: 19%;
+  float: left;
+  font-size: 1rem;
+  color: rgb(77, 77, 77);
+  position: absolute;
+  top: 9rem;
+  left: 53rem;
+}
+.ft_textbox {
+  clear: both;
+  padding-top: 2rem;
+  line-height: 2;
+}
+/*********************footer 끝****************************/
