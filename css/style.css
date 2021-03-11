@@ -89,20 +89,14 @@ body {
   height: 150rem;
   background-color: #8bcb47;
 }
-.mascort {
-  position: absolute;
-  top: 147rem;
-  left: 24rem;
-  z-index: 9999999;
-}
 .first_circle {
   width: 6.81rem;
   height: 6.81rem;
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 17rem;
-  left: 84rem;
+  top: 14rem;
+  left: 81rem;
 }
 .second_circle {
   width: 5.93rem;
@@ -110,8 +104,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 47rem;
-  left: 42.2rem;
+  top: 45rem;
+  left: 38.2rem;
 }
 .third_circle {
   width: 4.87rem;
@@ -119,8 +113,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 74.7rem;
-  left: 84.6rem;
+  top: 73.7rem;
+  left: 82.6rem;
 }
 .six_circle {
   width: 6.81rem;
@@ -128,8 +122,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 144rem;
-  left: 67rem;
+  top: 143rem;
+  left: 65rem;
 }
 .first_mini_circle {
   width: 1.6rem;
@@ -138,8 +132,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 36.9rem;
-  left: 58.7rem;
+  top: 35.4rem;
+  left: 54.7rem;
   z-index: 9;
 }
 .second_mini_circle {
@@ -160,8 +154,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 56.2rem;
-  left: 69rem;
+  top: 55rem;
+  left: 66rem;
   z-index: 9;
 }
 .four_mini_circle {
@@ -171,19 +165,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 77.4rem;
-  left: 60.7rem;
-  z-index: 9;
-}
-.five_mini_circle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #3da4d9;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 77.4rem;
-  left: 43.7rem;
+  top: 76rem;
+  left: 46rem;
   z-index: 9;
 }
 .six_mini_circle {
@@ -193,8 +176,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 100.5rem;
-  left: 40.7rem;
+  top: 99.2rem;
+  left: 37rem;
   z-index: 9;
 }
 .seven_mini_circle {
@@ -204,7 +187,7 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 92.2rem;
+  top: 91rem;
   left: 73.7rem;
   z-index: 9;
 }
@@ -216,7 +199,7 @@ body {
   border-radius: 2rem;
   position: absolute;
   top: 101.9rem;
-  left: 87.3rem;
+  left: 84.6rem;
   z-index: 9;
 }
 .nine_mini_circle {
@@ -226,8 +209,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 119.7rem;
-  left: 59.3rem;
+  top: 118.7rem;
+  left: 56.2rem;
   z-index: 9;
 }
 .ten_mini_circle {
@@ -238,20 +221,10 @@ body {
   border-radius: 2rem;
   position: absolute;
   top: 127.7rem;
-  left: 39.5rem;
+  left: 36.5rem;
   z-index: 9;
 }
-.eleven_mini_circle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #3da4d9;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 140.6rem;
-  left: 52.5rem;
-  z-index: 9;
-}
+
 .twelve_mini_circle {
   width: 1.6rem;
   height: 1.6rem;
@@ -259,8 +232,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 155.3rem;
-  left: 45.5rem;
+  top: 154.1rem;
+  left: 44.5rem;
   z-index: 9;
 }
 .se_1 {
@@ -295,8 +268,8 @@ body {
 }
 .sec_3 {
   position: absolute;
-  top: 71.2rem;
-  left: 72rem;
+  top: 72.2rem;
+  left: 67rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.3rem;
@@ -305,8 +278,8 @@ body {
 }
 .se_4 {
   position: absolute;
-  left: 1rem;
-  top: 1.5rem;
+  left: 1.1rem;
+  top: 1.7rem;
   z-index: 9;
   font-size: 2.2rem;
   font-family: "Noto Sans KR", cursive;
@@ -355,8 +328,8 @@ body {
 }
 .text_1 {
   position: absolute;
-  top: 24rem;
-  left: 77.1rem;
+  top: 20.2rem;
+  left: 74.1rem;
   text-align: right;
   color: #ffffff;
   font-size: 0.8rem;
@@ -369,13 +342,13 @@ body {
 .first_img img {
   width: 6.5rem;
   position: absolute;
-  top: 26.5rem;
-  left: 77rem;
+  top: 23.5rem;
+  left: 74rem;
   z-index: 99;
 }
 .txt_2 {
   position: absolute;
-  top: 31.7rem;
+  top: 29.7rem;
   left: 48.9rem;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
@@ -385,7 +358,7 @@ body {
 }
 .text_2 {
   position: absolute;
-  top: 33.6rem;
+  top: 32rem;
   left: 48.8rem;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
@@ -397,8 +370,8 @@ body {
 }
 .text_3 {
   position: absolute;
-  top: 47rem;
-  left: 48.3rem;
+  top: 44rem;
+  left: 45.8rem;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -408,14 +381,14 @@ body {
   width: 7.2rem;
   position: absolute;
   top: 40rem;
-  left: 48.2rem;
+  left: 57.2rem;
   cursor: pointer;
   z-index: 99;
 }
 .sec_2 {
   position: absolute;
-  top: 46rem;
-  left: 48.2rem;
+  top: 43rem;
+  left: 45.7rem;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -423,8 +396,8 @@ body {
 }
 .txt_4 {
   position: absolute;
-  top: 53.5rem;
-  left: 71.4rem;
+  top: 51.5rem;
+  left: 68.4rem;
   font-size: 1.4rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -432,8 +405,8 @@ body {
 }
 .text_4 {
   position: absolute;
-  top: 55.5rem;
-  left: 71.5rem;
+  top: 53.5rem;
+  left: 68.5rem;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -443,8 +416,8 @@ body {
 }
 .text_5 {
   position: absolute;
-  top: 73.1rem;
-  left: 76rem;
+  top: 74.1rem;
+  left: 71rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -452,17 +425,17 @@ body {
   font-weight: 600;
 }
 .three_img img {
-  width: 14rem;
+  width: 11rem;
   position: absolute;
-  top: 59.4rem;
-  left: 73.5rem;
+  top: 62.4rem;
+  left: 70.5rem;
   z-index: 99;
   cursor: pointer;
 }
 .text_6 {
   position: absolute;
-  top: 74rem;
-  left: 54.5rem;
+  top: 73.3rem;
+  left: 41.5rem;
   color: #ffffff;
   text-align: center;
   font-size: 0.8rem;
@@ -472,47 +445,25 @@ body {
 .four_img img {
   width: 11.5rem;
   position: absolute;
-  top: 62rem;
-  left: 53.7rem;
+  top: 61rem;
+  left: 41.7rem;
   z-index: 99;
   cursor: pointer;
 }
 .txt_6 {
   position: absolute;
-  top: 72rem;
-  left: 52rem;
+  top: 71rem;
+  left: 40rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
-.txt_7 {
-  position: absolute;
-  top: 71.9rem;
-  left: 36.8rem;
-  color: #ffffff;
-  text-align: right;
-  font-size: 1.4rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.text_7 {
-  position: absolute;
-  top: 75.9rem;
-  left: 38.5rem;
-  color: #ffffff;
-  text-align: right;
-  font-size: 0.8rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-  z-index: 99;
-  cursor: pointer;
-}
 .text_8 {
   position: absolute;
-  top: 99rem;
-  left: 43.3rem;
+  top: 98rem;
+  left: 39.8rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -520,17 +471,17 @@ body {
   font-weight: 600;
 }
 .five_img img {
-  width: 18.5rem;
+  width: 14rem;
   position: absolute;
-  top: 80.5rem;
-  left: 42.7rem;
+  top: 83.9rem;
+  left: 39.7rem;
   z-index: 99;
   cursor: pointer;
 }
 .txt_8 {
   position: absolute;
-  top: 97rem;
-  left: 43.4rem;
+  top: 96rem;
+  left: 39.8rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.4rem;
@@ -539,7 +490,7 @@ body {
 }
 .text_9 {
   position: absolute;
-  top: 89rem;
+  top: 87.8rem;
   left: 72.9rem;
   color: #ffffff;
   text-align: left;
@@ -551,7 +502,7 @@ body {
 }
 .txt_9 {
   position: absolute;
-  top: 84.4rem;
+  top: 83.4rem;
   left: 72.9rem;
   color: #ffffff;
   text-align: left;
@@ -562,7 +513,7 @@ body {
 .text_10 {
   position: absolute;
   top: 103.6rem;
-  left: 76.9rem;
+  left: 74rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.7rem;
@@ -572,17 +523,17 @@ body {
   cursor: pointer;
 }
 .six_img img {
-  width: 15rem;
+  width: 12rem;
   position: absolute;
-  top: 103.5rem;
-  left: 44.7rem;
+  top: 105.6rem;
+  left: 42.7rem;
   z-index: 99;
   cursor: pointer;
 }
 .txt_10 {
   position: absolute;
   top: 99rem;
-  left: 71.5rem;
+  left: 68.9rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -591,8 +542,8 @@ body {
 }
 .txt_11 {
   position: absolute;
-  top: 116.1rem;
-  left: 44.6rem;
+  top: 115.6rem;
+  left: 41.6rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -601,8 +552,8 @@ body {
 }
 .text_11 {
   position: absolute;
-  top: 118.5rem;
-  left: 49.7rem;
+  top: 117.6rem;
+  left: 46.7rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -612,7 +563,7 @@ body {
 .txt_12 {
   position: absolute;
   top: 126rem;
-  left: 42.4rem;
+  left: 39.4rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -623,46 +574,25 @@ body {
   width: 10rem;
   position: absolute;
   top: 125.3rem;
-  left: 56.7rem;
+  left: 53.7rem;
   z-index: 99;
   cursor: pointer;
 }
 .text_12 {
   position: absolute;
   top: 130.5rem;
-  left: 42.5rem;
+  left: 39.5rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.7rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
-.txt_13 {
-  position: absolute;
-  top: 135.4rem;
-  left: 45rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.text_13 {
-  position: absolute;
-  top: 137.4rem;
-  left: 47.2rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 0.7rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-  z-index: 99;
-  cursor: pointer;
-}
+
 .txt_14 {
   position: absolute;
-  top: 149.2rem;
-  left: 44.1rem;
+  top: 148.2rem;
+  left: 43.1rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -670,17 +600,17 @@ body {
   font-weight: 600;
 }
 .eight_img img {
-  width: 8.5rem;
+  width: 16rem;
   position: absolute;
-  top: 143.5rem;
-  left: 51.9rem;
+  top: 148.5rem;
+  left: 23.2rem;
   z-index: 99;
   cursor: pointer;
 }
 .text_14 {
   position: absolute;
-  top: 153.8rem;
-  left: 44.2rem;
+  top: 152.8rem;
+  left: 43.2rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -689,8 +619,8 @@ body {
 }
 .sec_4 {
   position: absolute;
-  top: 142.2rem;
-  left: 74.1rem;
+  top: 140.2rem;
+  left: 72.1rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -699,8 +629,8 @@ body {
 }
 .text_15 {
   position: absolute;
-  top: 146.4rem;
-  left: 74.2rem;
+  top: 144.4rem;
+  left: 72.2rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.7rem;
@@ -710,15 +640,15 @@ body {
 .nine_img img {
   width: 10rem;
   position: absolute;
-  top: 135.5rem;
-  left: 78.2rem;
+  top: 133.5rem;
+  left: 76.2rem;
   z-index: 99;
   cursor: pointer;
 }
 .sec_1 {
   position: absolute;
-  top: 22rem;
-  left: 73rem;
+  top: 18rem;
+  left: 70rem;
   text-align: right;
   color: #ffffff;
   font-size: 1.5rem;
@@ -739,8 +669,8 @@ body {
 }
 .sec_9 {
   position: absolute;
-  top: 347.6rem;
-  left: 39.5rem;
+  top: 330.6rem;
+  left: 69.5rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -759,8 +689,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 173.4rem;
-  left: 61rem;
+  top: 171.4rem;
+  left: 38rem;
 }
 .eight_circle {
   width: 5.93rem;
@@ -768,8 +698,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 206.4rem;
-  left: 63rem;
+  top: 207.4rem;
+  left: 61rem;
 }
 .nine_circle {
   width: 4.87rem;
@@ -777,8 +707,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 228.7rem;
-  left: 82.4rem;
+  top: 228rem;
+  left: 79.4rem;
 }
 .ten_circle {
   width: 5.93rem;
@@ -796,19 +726,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 161.9rem;
-  left: 82.5rem;
-  z-index: 9;
-}
-.fourteen_mini_circle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #ed9a16;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 164.9rem;
-  left: 42.5rem;
+  top: 159.9rem;
+  left: 83.5rem;
   z-index: 9;
 }
 .fiveteen_mini_circle {
@@ -819,7 +738,7 @@ body {
   border-radius: 2rem;
   position: absolute;
   top: 180.4rem;
-  left: 81rem;
+  left: 78.1rem;
   z-index: 9;
 }
 .sixteen_mini_circle {
@@ -829,8 +748,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 204.5rem;
-  left: 51.6rem;
+  top: 202rem;
+  left: 37rem;
   z-index: 9;
 }
 .seventeen_mini_circle {
@@ -840,8 +759,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 231.6rem;
-  left: 48.6rem;
+  top: 230.9rem;
+  left: 47.6rem;
   z-index: 9;
 }
 .eighteen_mini_circle {
@@ -851,8 +770,8 @@ body {
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 255.9rem;
-  left: 50.6rem;
+  top: 253.9rem;
+  left: 33.9rem;
   z-index: 9;
 }
 .nineteen_mini_circle {
@@ -863,7 +782,7 @@ body {
   border-radius: 2rem;
   position: absolute;
   top: 247.3rem;
-  left: 82.9rem;
+  left: 80.7rem;
   z-index: 9;
 }
 .twenteen_mini_circle {
@@ -874,35 +793,25 @@ body {
   border-radius: 2rem;
   position: absolute;
   top: 293.3rem;
-  left: 37.4rem;
+  left: 34.4rem;
   z-index: 9;
 }
-.twelveone_mini_circle {
+
+.twelvetwo_mini_circle {
   width: 1.6rem;
   height: 1.6rem;
   background-color: #ed9a16;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 303.7rem;
-  left: 62.4rem;
-  z-index: 9;
-}
-.twelvetwo_mini_circle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #a858b1;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 321.7rem;
-  left: 61.9rem;
+  top: 303rem;
+  left: 81.1rem;
   z-index: 9;
 }
 .txt_16 {
   position: absolute;
-  top: 155rem;
-  left: 76.6rem;
+  top: 153rem;
+  left: 74.6rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -911,8 +820,8 @@ body {
 }
 .text_16 {
   position: absolute;
-  top: 159.2rem;
-  left: 80.2rem;
+  top: 157.2rem;
+  left: 78.2rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -921,32 +830,10 @@ body {
   z-index: 99;
   cursor: pointer;
 }
-.txt_17 {
-  position: absolute;
-  top: 164.7rem;
-  left: 45.2rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.text_17 {
-  position: absolute;
-  top: 166.7rem;
-  left: 45.2rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 0.8rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-  z-index: 99;
-  cursor: pointer;
-}
 .text_18 {
   position: absolute;
-  top: 171.7rem;
-  left: 61.8rem;
+  top: 170.7rem;
+  left: 44.8rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.85rem;
@@ -957,8 +844,8 @@ body {
 }
 .sec_5 {
   position: absolute;
-  bottom: 8.4rem;
-  right: -5.2rem;
+  bottom: 7.4rem;
+  right: -11.2rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -968,7 +855,7 @@ body {
 .txt_19 {
   position: absolute;
   top: 178.7rem;
-  left: 72.2rem;
+  left: 69.2rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -978,15 +865,15 @@ body {
 .ten_img img {
   width: 7rem;
   position: absolute;
-  top: 180.8rem;
-  left: 64.7rem;
+  top: 178.8rem;
+  left: 60.7rem;
   z-index: 99;
   cursor: pointer;
 }
 .text_19 {
   position: absolute;
   top: 183rem;
-  left: 72.2rem;
+  left: 68.2rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -995,8 +882,8 @@ body {
 }
 .txt_20 {
   position: absolute;
-  top: 196rem;
-  left: 50rem;
+  top: 194.6rem;
+  left: 39.4rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -1005,8 +892,8 @@ body {
 }
 .text_20 {
   position: absolute;
-  top: 200.5rem;
-  left: 50.2rem;
+  top: 199rem;
+  left: 39.5rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1018,7 +905,7 @@ body {
 .text_21 {
   position: absolute;
   top: 207.9rem;
-  left: 69.2rem;
+  left: 67.2rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1028,15 +915,15 @@ body {
 .eleven_img img {
   width: 10.5rem;
   position: absolute;
-  top: 199rem;
-  left: 77.6rem;
+  top: 196.3rem;
+  left: 66.6rem;
   z-index: 99;
   cursor: pointer;
 }
 .sec_6 {
   position: absolute;
   top: 205.7rem;
-  left: 69rem;
+  left: 67.2rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -1046,7 +933,7 @@ body {
 .text_22 {
   position: absolute;
   top: 0.9rem;
-  left: -11.5rem;
+  left: -7.5rem;
   color: #ffffff;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
@@ -1055,15 +942,16 @@ body {
 .tweleve_img img {
   width: 9.5rem;
   position: absolute;
-  top: 219.1rem;
-  left: 74.9rem;
+  top: 216.1rem;
+  left: 69.9rem;
   z-index: 99;
   cursor: pointer;
 }
 .sec_7 {
   position: absolute;
-  top: 225.2rem;
-  left: 70.9rem;
+  top: 224.6rem;
+  text-align: right;
+  left: 67.7rem;
   color: #ffffff;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
@@ -1071,7 +959,7 @@ body {
 }
 .txt_23 {
   position: absolute;
-  top: 224.5rem;
+  top: 223.8rem;
   left: 39.1rem;
   color: #ffffff;
   text-align: right;
@@ -1081,7 +969,7 @@ body {
 }
 .text_23 {
   position: absolute;
-  top: 229rem;
+  top: 228.2rem;
   left: 38rem;
   color: #ffffff;
   text-align: right;
@@ -1093,10 +981,10 @@ body {
 }
 .txt_24 {
   position: absolute;
-  top: 248.5rem;
-  left: 42.2rem;
+  top: 247.5rem;
+  left: 36.2rem;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -1104,17 +992,17 @@ body {
 .thirteen_img img {
   width: 11.5rem;
   position: absolute;
-  top: 240.5rem;
-  left: 42.9rem;
+  top: 239.5rem;
+  left: 36.2rem;
   z-index: 99;
   cursor: pointer;
 }
 .text_24 {
   position: absolute;
-  top: 253rem;
-  left: 44.2rem;
+  top: 252rem;
+  left: 36.2rem;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -1122,7 +1010,7 @@ body {
 .txt_25 {
   position: absolute;
   top: 248.5rem;
-  left: 73.5rem;
+  left: 71.5rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -1132,7 +1020,7 @@ body {
 .text_25 {
   position: absolute;
   top: 252.9rem;
-  left: 74.5rem;
+  left: 72.5rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -1144,7 +1032,7 @@ body {
 .text_26 {
   position: absolute;
   top: 292.9rem;
-  left: 40rem;
+  left: 37rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1154,7 +1042,7 @@ body {
 .txt_26 {
   position: absolute;
   top: 290.7rem;
-  left: 39.9rem;
+  left: 36.9rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -1165,36 +1053,15 @@ body {
   width: 13.5rem;
   position: absolute;
   top: 279rem;
-  left: 39.9rem;
+  left: 36.9rem;
   z-index: 99;
   cursor: pointer;
 }
-.txt_27 {
-  position: absolute;
-  top: 300.1rem;
-  left: 56.2rem;
-  color: #ffffff;
-  text-align: right;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.text_27 {
-  position: absolute;
-  top: 302.3rem;
-  left: 56.2rem;
-  color: #ffffff;
-  text-align: right;
-  font-size: 0.8rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-  z-index: 99;
-  cursor: pointer;
-}
+
 .sec_8 {
   position: absolute;
-  top: 268.3rem;
-  left: 72.5rem;
+  top: 269.3rem;
+  left: 67.5rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -1203,8 +1070,8 @@ body {
 }
 .text_28 {
   position: absolute;
-  bottom: -6rem;
-  right: -8.5rem;
+  bottom: -6.4rem;
+  right: -3.4rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1215,26 +1082,26 @@ body {
   width: 12.5rem;
   position: absolute;
   top: 276.5rem;
-  left: 72.9rem;
+  left: 67.6rem;
   z-index: 99;
   cursor: pointer;
 }
 .txt_29 {
   position: absolute;
-  bottom: 1.8rem;
-  right: -12.5rem;
+  top: 1.8rem;
+  left: -8.5rem;
   color: #ffffff;
-  text-align: left;
+  text-align: right;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .text_29 {
   position: absolute;
-  bottom: -1.7rem;
-  right: -11rem;
+  top: 6.3rem;
+  left: -7rem;
   color: #ffffff;
-  text-align: left;
+  text-align: right;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -1256,19 +1123,19 @@ body {
 }
 .text_30 {
   position: absolute;
-  top: 350rem;
-  right: 61.7rem;
+  top: 333rem;
+  right: 39.7rem;
   color: #ffffff;
-  text-align: left;
+  text-align: right;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .seventeen_img img {
-  width: 11.5rem;
+  width: 8.5rem;
   position: absolute;
-  top: 352.8rem;
-  left: 39.5rem;
+  top: 336.1rem;
+  left: 70.5rem;
 }
 .eleven_circle {
   width: 4.87rem;
@@ -1276,13 +1143,13 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 345.9rem;
-  left: 33.7rem;
+  top: 331.9rem;
+  left: 80.2rem;
 }
 .txt_31 {
   position: absolute;
-  top: 366.5rem;
-  left: 68.4rem;
+  top: 331.5rem;
+  left: 38.4rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -1291,8 +1158,8 @@ body {
 }
 .text_31 {
   position: absolute;
-  top: 370.9rem;
-  right: 38.6rem;
+  top: 336rem;
+  right: 68.5rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -1302,24 +1169,24 @@ body {
 .twelvethree_mini_circle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #a858b1;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 369.3rem;
-  left: 81.3rem;
+  top: 345rem;
+  left: 46.3rem;
   z-index: 9;
 }
 .eighteen_img img {
   width: 6.5rem;
   position: absolute;
-  top: 373.8rem;
-  left: 73.9rem;
+  top: 339rem;
+  left: 43.9rem;
 }
 .txt_32 {
   position: absolute;
-  top: 397rem;
-  left: 36.2rem;
+  top: 353rem;
+  left: 36.8rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -1328,8 +1195,8 @@ body {
 }
 .text_32 {
   position: absolute;
-  top: 399.2rem;
-  right: 71rem;
+  top: 355.2rem;
+  right: 70.5rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1339,55 +1206,55 @@ body {
 .nineteen_img img {
   width: 12.5rem;
   position: absolute;
-  top: 398.8rem;
-  left: 50.9rem;
+  top: 359.8rem;
+  left: 38.9rem;
 }
 .twelvefour_mini_circle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #a858b1;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 398.6rem;
-  left: 33.6rem;
+  top: 357.6rem;
+  left: 33rem;
   z-index: 9;
 }
 .txt_33 {
   position: absolute;
-  top: 420rem;
-  left: 54.4rem;
+  top: 363rem;
+  left: 73.2rem;
   color: #ffffff;
-  text-align: center;
+  text-align: right;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .text_33 {
   position: absolute;
-  top: 424.5rem;
-  right: 55.4rem;
+  top: 367.5rem;
+  right: 38.4rem;
   color: #ffffff;
-  text-align: center;
+  text-align: right;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .tweteen_img img {
-  width: 11.5rem;
+  width: 8.5rem;
   position: absolute;
-  top: 425.9rem;
-  left: 62.9rem;
+  top: 370.9rem;
+  left: 72rem;
 }
 .twelvefive_mini_circle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #a858b1;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 417.5rem;
-  left: 56.9rem;
+  top: 360.8rem;
+  left: 80rem;
   z-index: 9;
 }
 .txt_34 {
@@ -1416,8 +1283,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 456.4rem;
-  left: 77rem;
+  top: 382.4rem;
+  left: 53rem;
 }
 .twelve_circle_text {
   position: absolute;
@@ -1431,18 +1298,18 @@ body {
 }
 .twelve_circle_text_se {
   position: absolute;
-  top: 451.5rem;
-  left: 68.4rem;
+  top: 382.5rem;
+  left: 58.9rem;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .twelve_circle_text_tr {
   position: absolute;
-  top: 456.5rem;
-  right: 42.7rem;
+  top: 386.8rem;
+  right: 48.9rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -1452,20 +1319,14 @@ body {
 .tweteenone_img img {
   width: 10.5rem;
   position: absolute;
-  top: -10rem;
-  left: -22rem;
+  top: 6rem;
+  left: 5rem;
 }
 .tweeteentwo_img img {
   width: 8.5rem;
   position: absolute;
-  top: 478rem;
-  left: 63.4rem;
-}
-.tweteenthree_img img {
-  width: 10.5rem;
-  position: absolute;
-  top: 508rem;
-  left: 42.4rem;
+  top: 410.3rem;
+  left: 53.4rem;
 }
 .tweeteenfour_img img {
   width: 11.5rem;
@@ -1476,130 +1337,89 @@ body {
 .tweeteenfive_img img {
   width: 11.5rem;
   position: absolute;
-  top: 556rem;
-  left: 40.9rem;
-}
-.tweteensix_img img {
-  width: 9.5rem;
-  position: absolute;
-  top: 579rem;
-  left: 70.9rem;
+  top: 449rem;
+  left: 45.2rem;
 }
 .twelevesix_minicircle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #a858b1;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 474rem;
-  left: 65.9rem;
+  top: 407rem;
+  left: 34rem;
   z-index: 9;
 }
 .twelevesix_minicircle_text {
   position: absolute;
-  top: 466.5rem;
-  left: 60.8rem;
+  top: 400.8rem;
+  left: 36.8rem;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .twelevesix_minicircle_text2 {
   position: absolute;
-  top: 471rem;
-  right: 46.8rem;
+  top: 405.3rem;
+  right: 71.8rem;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 /* 하늘배경 끝 */
 /* 연한파랑배경시작 */
-.light_blue {
-  width: 100%;
-  height: 122rem;
-  background-color: #a858b1;
-}
+
 .tweleveseven_minicircle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #8bcb47;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 493.2rem;
-  left: 65.9rem;
+  top: 417rem;
+  left: 81rem;
   z-index: 9;
 }
 .tweleveseven_minicircle_text {
   position: absolute;
-  top: 485.4rem;
-  left: 58.5rem;
+  top: 410.8rem;
+  left: 62.5rem;
   color: #ffffff;
-  text-align: center;
+  text-align: right;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .tweleveseven_minicircle_text2 {
   position: absolute;
-  top: 490.6rem;
-  right: 46.5rem;
+  top: 415.3rem;
+  right: 37.9rem;
   color: #ffffff;
   text-align: center;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
-.tweleveeight_minicircle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #8bcb47;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 509.2rem;
-  left: 31rem;
-  z-index: 9;
-}
-.tweleveeight_minicircle_text {
-  position: absolute;
-  top: 507.4rem;
-  left: 34rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.tweleveeight_minicircle_text2 {
-  position: absolute;
-  top: 512rem;
-  right: 77rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 0.7rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
 .twelevenine_minicircle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #8bcb47;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 540.2rem;
-  left: 31rem;
+  top: 436.2rem;
+  left: 61.9rem;
   z-index: 9;
 }
 .twelevenine_minicircle_text {
   position: absolute;
-  top: 537rem;
-  left: 34rem;
+  top: 432rem;
+  left: 64.4rem;
   color: #ffffff;
   text-align: left;
   font-size: 1.5rem;
@@ -1608,8 +1428,8 @@ body {
 }
 .twelevenine_minicircle_text2 {
   position: absolute;
-  top: 541.9rem;
-  right: 73.9rem;
+  top: 436.4rem;
+  right: 43.5rem;
   color: #ffffff;
   text-align: left;
   font-size: 0.8rem;
@@ -1619,59 +1439,28 @@ body {
 .thirteenone_minicircle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #8bcb47;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 572.9rem;
-  left: 46rem;
+  top: 459rem;
+  left: 55rem;
   z-index: 9;
 }
 .thirteenone_minicircle_text {
   position: absolute;
-  top: 566rem;
-  left: 37.6rem;
+  top: 442.8rem;
+  left: 38.2rem;
   color: #ffffff;
-  text-align: center;
+  text-align: right;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .thirteenone_minicircle_text2 {
   position: absolute;
-  top: 570.4rem;
-  right: 64.3rem;
-  color: #ffffff;
-  text-align: center;
-  font-size: 0.8rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.thirteentwo_minicircle {
-  width: 1.6rem;
-  height: 1.6rem;
-  background-color: #8bcb47;
-  border: 5px solid #ffffff;
-  border-radius: 2rem;
-  position: absolute;
-  top: 587.7rem;
-  left: 64rem;
-  z-index: 9;
-}
-.thirteentwo_minicircle_text {
-  position: absolute;
-  top: 580.6rem;
-  left: 61rem;
-  color: #ffffff;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.thirteentwo_minicircle_text2 {
-  position: absolute;
-  top: 585rem;
-  right: 49.3rem;
+  top: 447.4rem;
+  right: 62.3rem;
   color: #ffffff;
   text-align: center;
   font-size: 0.8rem;
@@ -1681,30 +1470,30 @@ body {
 .thirteenthree_minicircle {
   width: 1.6rem;
   height: 1.6rem;
-  background-color: #8bcb47;
+  background-color: #3da4d9;
   border: 5px solid #ffffff;
   border-radius: 2rem;
   position: absolute;
-  top: 594.7rem;
-  left: 75.9rem;
+  top: 463.7rem;
+  left: 33.2rem;
   z-index: 9;
 }
 .thirteenthree_minicircle_text {
   position: absolute;
-  top: 591.3rem;
-  left: 62.5rem;
+  top: 462.3rem;
+  left: 35.8rem;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .thirteenthree_minicircle_text2 {
   position: absolute;
-  top: 595.9rem;
-  right: 44.2rem;
+  top: 466.9rem;
+  right: 69.6rem;
   color: #ffffff;
-  text-align: right;
+  text-align: left;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -1715,8 +1504,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 520.8rem;
-  left: 69.5rem;
+  top: 422.8rem;
+  left: 34.8rem;
 }
 .sixteen_circle_text {
   position: absolute;
@@ -1730,18 +1519,18 @@ body {
 }
 .sixteen_circle_text_se {
   position: absolute;
-  top: 514rem;
-  left: 63rem;
+  top: 422rem;
+  left: 40rem;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
 }
 .sixteen_circle_text_tr {
   position: absolute;
-  top: 518.8rem;
-  right: 42.7rem;
+  top: 426.4rem;
+  right: 70.3rem;
   color: #ffffff;
   text-align: right;
   font-size: 0.8rem;
@@ -1754,8 +1543,8 @@ body {
   background-color: #ffffff;
   border-radius: 10rem;
   position: absolute;
-  top: 557.9rem;
-  left: 74.8rem;
+  top: 445.9rem;
+  left: 79.8rem;
 }
 .seventeen_circle_text {
   position: absolute;
@@ -1769,8 +1558,8 @@ body {
 }
 .seventeen_circle_text_se {
   position: absolute;
-  top: 558rem;
-  left: 63.3rem;
+  top: 445rem;
+  left: 67.8rem;
   color: #ffffff;
   text-align: right;
   font-size: 1.5rem;
@@ -1779,49 +1568,10 @@ body {
 }
 .seventeen_circle_text_tr {
   position: absolute;
-  top: 562.9rem;
-  right: 44.9rem;
+  top: 449.5rem;
+  right: 40rem;
   color: #ffffff;
   text-align: right;
-  font-size: 0.8rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.eighteen_circle {
-  width: 4.87rem;
-  height: 4.87rem;
-  background-color: #ffffff;
-  border-radius: 10rem;
-  position: absolute;
-  top: 583.9rem;
-  left: 27.1rem;
-}
-.eighteen_circle_text {
-  position: absolute;
-  left: 0.6rem;
-  top: 1.2rem;
-  z-index: 9;
-  font-size: 1.7rem;
-  font-family: "Noto Sans KR", cursive;
-  color: #a858b1;
-  font-weight: 900;
-}
-.eighteen_circle_text_se {
-  position: absolute;
-  top: 583.6rem;
-  left: 33rem;
-  color: #ffffff;
-  text-align: left;
-  font-size: 1.5rem;
-  font-family: "Noto Sans KR", cursive;
-  font-weight: 600;
-}
-.eighteen_circle_text_tr {
-  position: absolute;
-  top: 587.9rem;
-  right: 74.9rem;
-  color: #ffffff;
-  text-align: left;
   font-size: 0.8rem;
   font-family: "Noto Sans KR", cursive;
   font-weight: 600;
@@ -1830,8 +1580,8 @@ body {
 .main_contents img {
   position: absolute;
   top: 12.5rem;
-  left: 29rem;
-  width: 60rem;
+  left: 34rem;
+  width: 52rem;
 }
 /* main끝 */
 
@@ -1843,7 +1593,7 @@ body {
   background-color: #ffffff;
   z-index: 9999;
   position: absolute;
-  top: 601rem;
+  top: 471rem;
 }
 .footer_mn {
   width: 100%;
